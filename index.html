@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+
+  <!-- ===== SEO META TAGS ===== -->
+  <title>PMV Goat Farm – Quality Goats & sheeps in Krishnagiri | Ettayapuram Mayilambadi & Andhra Nellore Jodipi Goats | Tamil Nadu</title>
+  <meta name="description" content="PMV Goat Farm in Krishnagiri, Tamil Nadu specialises in premium Ettayapuram Mayilambadi and Andhra Nellore Jodipi goat breeds. Vaccinated, health-checked, direct farm-to-buyer sales. Call +91 93619 08550."/>
+  <meta name="keywords" content="goat farm Krishnagiri, Ettayapuram Mayilambadi, Andhra Nellore Jodipi, goat breeding Tamil Nadu, buy goats Tamil Nadu, PMV Goat Farm"/>
+  <meta name="author" content="PMV Goat Farm"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://pmvgoatfarm.in/"/>
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="PMV Goat Farm – Premium Goat Breeds, Krishnagiri"/>
+  <meta property="og:description" content="Quality Ettayapuram Mayilambadi & Andhra Nellore Jodipi goats. Vaccinated, health-checked, direct farm sales. Krishnagiri, Tamil Nadu."/>
+  <meta property="og:url" content="https://pmvgoatfarm.in/"/>
+  <meta property="og:locale" content="en_IN"/>
+
+  <!-- ===== STRUCTURED DATA ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "PMV Goat Farm",
+    "description": "Premium goat breeding farm specialising in Ettayapuram Mayilambadi and Andhra Nellore Jodipi breeds.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Krishnagiri", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+    "telephone": "+919361908550",
+    "contactPoint": [
+      { "@type": "ContactPoint", "telephone": "+919361908550", "contactType": "primary" },
+      { "@type": "ContactPoint", "telephone": "+918675904793", "contactType": "secondary" }
+    ],
+    "openingHours": "Mo-Sa 08:00-19:00",
+    "url": "https://pmvgoatfarm.in/"
+  }
+  </script>
+
+  <!-- ===== FONTS ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== SKIP LINK (Accessibility) ========== -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header" role="banner">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="PMV Goat Farm Logo" width="60" height="60" style="width:60px;height:60px;border-radius:50%;object-fit:cover;cursor:pointer;" onclick="openLogoLightbox()"/>
+        <div class="logo-text">
+          <span class="logo-main">PMV Goat Farm</span>
+          <span class="logo-sub">Krishnagiri, Tamil Nadu</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <a href="#home"          class="nav-link" data-key="nav_home">Home</a>
+        <a href="#about"         class="nav-link" data-key="nav_about">About</a>
+        <a href="#breeds"        class="nav-link" data-key="nav_breeds">Our Breeds</a>
+        <a href="#gallery-section" class="nav-link" data-key="nav_gallery">Gallery</a>
+        <a href="#faq"           class="nav-link">FAQ</a>
+        <a href="#contact"       class="nav-link" data-key="nav_contact">Contact</a>
+        <!-- Mobile lang switcher inside nav -->
+        <div class="lang-switcher lang-switcher-mobile" aria-label="Language switcher">
+          <button class="lang-btn active" onclick="setLang('en')">ENGLISH</button>
+          <button class="lang-btn" onclick="setLang('ta')">தமிழ்</button>
+          <button class="lang-btn" onclick="setLang('te')">తెలుగు</button>
+        </div>
+        <!-- Mobile CTA inside nav -->
+        <a href="tel:+919361908550" class="btn btn-primary nav-cta" aria-label="Call PMV Goat Farm">📞 Call Us</a>
+      </nav>
+
+      <div class="header-right">
+        <div class="lang-switcher lang-switcher-desktop" aria-label="Language switcher">
+          <button class="lang-btn active" onclick="setLang('en')">ENG</button>
+          <button class="lang-btn" onclick="setLang('ta')">தமிழ்</button>
+          <button class="lang-btn" onclick="setLang('te')">తెలుగు</button>
+        </div>
+        <!-- Desktop CTA -->
+        <a href="tel:+919361908550" class="btn btn-gold header-cta" aria-label="Call PMV Goat Farm">📞 Call Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="main-content">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="hero-slideshow" id="heroSlideshow"></div>
+      <div class="hero-pattern"></div>
+
+      <button class="slide-arrow prev" id="slidePrev" aria-label="Previous slide">&#8592;</button>
+      <button class="slide-arrow next" id="slideNext" aria-label="Next slide">&#8594;</button>
+      <div class="slide-dots" id="slideDots" role="tablist" aria-label="Slideshow navigation"></div>
+
+      <div class="container hero-content">
+        <p class="hero-badge" data-key="hero_badge">Est. in Krishnagiri, Tamil Nadu</p>
+        <h1 class="hero-title" data-key="hero_title">Premium Quality<br/><span data-key="hero_title_span">Goat Farm</span></h1>
+        <p class="hero-desc" data-key="hero_desc">Specialising in Ettayapuram Mayilambadi &amp; Andhra Nellore Jodipi breeds — raised with care, sold with trust.</p>
+        <div class="hero-buttons">
+          <a href="#breeds"  class="btn btn-primary"  data-key="hero_btn1">View Our Breeds</a>
+          <a href="#contact" class="btn btn-outline"   data-key="hero_btn2">Enquire Now</a>
+          <a href="tel:+919361908550" class="btn btn-gold-solid" aria-label="Call now">📞 Call Now</a>
+          <a href="https://wa.me/919361908550" class="btn btn-whatsapp-hero" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-scroll" data-key="scroll_down" aria-hidden="true">▼ Scroll Down</div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats" aria-label="Farm statistics">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <p data-key="stat1">Goats Sold</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+          <p data-key="stat2">Years Experience</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="2">0</span><span class="stat-plus"></span>
+          <p data-key="stat3">Premium Breeds</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+          <p data-key="stat4">Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== QUICK CTA STRIP ========== -->
+    <div class="cta-strip" aria-label="Quick contact actions">
+      <div class="container cta-strip-inner">
+        <p class="cta-strip-text">Ready to buy? Contact us directly:</p>
+        <div class="cta-strip-buttons">
+          <a href="tel:+919361908550" class="btn btn-primary cta-strip-btn" aria-label="Call PMV Goat Farm">📞 Call: +91 86759 04793 /+91 93619 08550</a>
+          <a href="https://wa.me/919361908550" class="btn btn-whatsapp cta-strip-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp PMV Goat Farm">💬 WhatsApp Us</a>
+          <a href="#contact" class="btn btn-outline-dark cta-strip-btn">✉️ Send Enquiry</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/about.jpeg" alt="PMV Goat Farm herd in Krishnagiri, Tamil Nadu" class="about-img-real" loading="lazy"/>
+          <div class="about-badge" data-key="about_badge">100% Trusted Farm</div>
+        </div>
+        <div class="about-content">
+          <p class="section-label" data-key="about_label">Who We Are</p>
+          <h2 class="section-title" id="about-heading" data-key="about_title">A Family Farm Built on Trust &amp; Quality</h2>
+          <p class="about-text" data-key="about_text1">PMV Goat Farm is a dedicated goat breeding farm located in Krishnagiri, Tamil Nadu. We specialise in raising healthy, premium-quality Ettayapuram Mayilambadi and Andhra Nellore Jodipi breeds.</p>
+          <p class="about-text" data-key="about_text2">Our goats are raised in a clean, natural environment with proper nutrition and veterinary care. We believe in transparent, honest dealings — every goat we sell is healthy, vaccinated, and well-documented.</p>
+          <ul class="about-list">
+            <li data-key="about_li1">✅ Vaccinated &amp; Health-Checked</li>
+            <li data-key="about_li2">✅ Natural Free-Range Environment</li>
+            <li data-key="about_li3">✅ Trusted by 200+ Farmers</li>
+            <li data-key="about_li4">✅ Direct Farm-to-Buyer Sales</li>
+          </ul>
+          <div class="about-ctas">
+            <a href="#contact" class="btn btn-primary" data-key="get_in_touch">Get In Touch</a>
+            <a href="https://wa.me/919361908550" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BREEDS ========== -->
+    <section class="breeds section" id="breeds" aria-labelledby="breeds-heading">
+      <div class="container">
+        <p class="section-label center" data-key="breeds_label">What We Offer</p>
+        <h2 class="section-title center" id="breeds-heading" data-key="breeds_title">Our Premium Goat Breeds</h2>
+        <p class="section-desc center" data-key="breeds_desc">We raise two of the most sought-after goat breeds in Tamil Nadu, known for their quality meat and adaptability.</p>
+        <div class="breeds-grid">
+
+          <article class="breed-card" aria-label="Ettayapuram Mayilambadi breed">
+            <div class="breed-icon">
+              <img src="images/Breed1.jpeg" alt="Ettayapuram Mayilambadi goat" style="width:130px;height:130px;object-fit:cover;border-radius:50%;border:3px solid var(--green-light);"/>
+            </div>
+            <h3 data-key="breed1_name">Ettayapuram Mayilambadi</h3>
+            <p class="breed-origin" data-key="breed1_origin">📍 Tamil Nadu Native Breed</p>
+            <p class="breed-desc" data-key="breed1_desc">A hardy, indigenous breed known for excellent meat quality and adaptability to local climate conditions.</p>
+            <ul class="breed-features">
+              <li data-key="breed1_f1">High meat yield</li>
+              <li data-key="breed1_f2">Drought-resistant</li>
+              <li data-key="breed1_f3">Easy to maintain</li>
+              <li data-key="breed1_f4">Strong immune system</li>
+            </ul>
+            <div class="breed-ctas">
+              <a href="#contact" class="btn btn-primary breed-btn" data-key="enquire_breed">Enquire About This Breed</a>
+              <a href="https://wa.me/919361908550?text=Hi%2C%20I%20am%20interested%20in%20Ettayapuram%20Mayilambadi%20goats." class="btn btn-whatsapp-sm" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp about Ettayapuram Mayilambadi">💬</a>
+            </div>
+          </article>
+
+          <article class="breed-card featured" aria-label="Andhra Nellore Jodipi breed – Popular choice">
+            <div class="breed-badge-tag" data-key="popular_choice">Popular Choice</div>
+            <div class="breed-icon">
+              <img src="images/goat1.jpeg" alt="Andhra Nellore Jodipi goat" style="width:130px;height:130px;object-fit:cover;border-radius:50%;border:3px solid var(--green-light);"/>
+            </div>
+            <h3 data-key="breed2_name">Andhra Nellore Jodipi</h3>
+            <p class="breed-origin" data-key="breed2_origin">📍 Andhra Pradesh Heritage Breed</p>
+            <p class="breed-desc" data-key="breed2_desc">A premium Andhra breed recognized for its superior growth rate, larger frame, and exceptional meat quality.</p>
+            <ul class="breed-features">
+              <li data-key="breed2_f1">Fast growth rate</li>
+              <li data-key="breed2_f2">Large body frame</li>
+              <li data-key="breed2_f3">Superior meat quality</li>
+              <li data-key="breed2_f4">High market demand</li>
+            </ul>
+            <div class="breed-ctas">
+              <a href="#contact" class="btn btn-gold breed-btn" data-key="enquire_breed">Enquire About This Breed</a>
+              <a href="https://wa.me/919361908550?text=Hi%2C%20I%20am%20interested%20in%20Andhra%20Nellore%20Jodipi%20goats." class="btn btn-whatsapp-sm" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp about Andhra Nellore Jodipi">💬</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section class="why section" aria-labelledby="why-heading">
+      <div class="container">
+        <p class="section-label center" data-key="why_label">Why Choose Us</p>
+        <h2 class="section-title center" id="why-heading" data-key="why_title">The PMV Difference</h2>
+        <div class="why-grid">
+          <div class="why-card"><div class="why-icon" aria-hidden="true">🏥</div><h4 data-key="why1_h">Fully Vaccinated</h4><p data-key="why1_p">All goats are vaccinated and health-certified before sale.</p></div>
+          <div class="why-card"><div class="why-icon" aria-hidden="true">🌿</div><h4 data-key="why2_h">Natural Feeding</h4><p data-key="why2_p">Raised on natural pasture and nutritious feed for optimal health.</p></div>
+          <div class="why-card"><div class="why-icon" aria-hidden="true">🤝</div><h4 data-key="why3_h">Honest Pricing</h4><p data-key="why3_p">Fair, transparent pricing with no hidden charges.</p></div>
+          <div class="why-card"><div class="why-icon" aria-hidden="true">🚚</div><h4 data-key="why4_h">Transport Support</h4><p data-key="why4_p">We assist with arranging transport for your purchased goats safely.</p></div>
+          <div class="why-card"><div class="why-icon" aria-hidden="true">📞</div><h4 data-key="why5_h">After-Sale Support</h4><p data-key="why5_p">We stay in touch after purchase to help you care for your animals.</p></div>
+          <div class="why-card"><div class="why-icon" aria-hidden="true">⭐</div><h4 data-key="why6_h">Trusted Reputation</h4><p data-key="why6_p">Over 200 happy customers across Tamil Nadu and neighbouring states.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section class="gallery-section" id="gallery-section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <p class="section-label center" data-key="gallery_label">Our Farm</p>
+        <h2 class="section-title center" id="gallery-heading" data-key="gallery_title">Photo Gallery</h2>
+        <p class="section-desc center" data-key="gallery_desc">A glimpse into PMV Goat Farm — our animals, environment, and happy customers.</p>
+
+        <!-- Gallery filter tabs -->
+        <div class="gallery-filters" role="tablist" aria-label="Gallery categories">
+          <button class="gallery-filter active" data-cat="All"      role="tab" aria-selected="true">All</button>
+          <button class="gallery-filter"         data-cat="Goats"   role="tab" aria-selected="false">Goats</button>
+          <button class="gallery-filter"         data-cat="Farm"    role="tab" aria-selected="false">Farm</button>
+          <button class="gallery-filter"         data-cat="Customers" role="tab" aria-selected="false">Customers</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid" role="list"></div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <p class="section-label center" data-key="testimonials_label">Customer Reviews</p>
+        <h2 class="section-title center" id="testimonials-heading" data-key="testimonials_title">What Our Buyers Say</h2>
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card" aria-label="Review by Rajan Kumar">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p data-key="test1_text">"Excellent quality goats! The Mayilambadi breed I purchased is healthy and growing well. Very satisfied with PMV Goat Farm."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">R</div>
+              <div><strong>Rajan Kumar</strong><span>Farmer, Salem</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-label="Review by Selvam Murugan">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p data-key="test2_text">"Very honest and transparent dealings. The goats were exactly as described. I will definitely buy again from PMV Farm."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S</div>
+              <div><strong>Selvam Murugan</strong><span>Farmer, Dharmapuri</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-label="Review by Muthu Vel">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p data-key="test3_text">"The Andhra Nellore Jodipi goats are amazing – fast growing and in great health. Thank you PMV Goat Farm!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">M</div>
+              <div><strong>Muthu Vel</strong><span>Farmer, Krishnagiri</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="faq section" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <p class="section-label center">Common Questions</p>
+        <h2 class="section-title center" id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq-list" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              Do you deliver goats to other districts or states?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Yes, we assist with transport arrangements across Tamil Nadu and neighbouring states including Andhra Pradesh and Karnataka. Please contact us for transport details.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              Are the goats vaccinated and health-certified?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Yes, absolutely. All goats at PMV Goat Farm are fully vaccinated and health-checked by a veterinarian before sale. We provide documentation on request.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              What is the minimum order quantity?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              We sell single goats as well as bulk orders. Whether you need one goat or a large herd, we can accommodate your needs. Please reach out for pricing.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              Can I visit the farm before purchasing?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Absolutely! We welcome farm visits Monday–Sunday, 8am to 7pm. Please call or WhatsApp us in advance to schedule your visit at +91 93619 08550.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              What payment methods do you accept?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              We accept cash, bank transfer (NEFT/RTGS), and UPI payments. Our pricing is fully transparent with no hidden charges.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <p class="section-label" data-key="contact_label">Reach Us</p>
+          <h2 class="section-title" id="contact-heading" data-key="contact_title">Get In Touch</h2>
+          <p data-key="contact_intro">Interested in buying goats or want to know more? We'd love to hear from you.</p>
+
+          <div class="contact-details">
+            <a href="https://www.google.com/maps/place/PMV+Goat+farm/@12.3918801,78.1732878,17z/data=!3m1!4b1!4m6!3m5!1s0x3bac310011f00bd1:0x72a256fe35d7b26d!8m2!3d12.3918801!4d78.1732878!16s%2Fg%2F11yrc74h0p?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+              <div class="contact-item" style="transition:opacity 0.2s;cursor:pointer;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong data-key="location_label">Location</strong>
+                  <p>Krishnagiri, Tamil Nadu, India</p>
+                </div>
+              </div>
+            </a>
+            <a href="tel:+919361908550" style="text-decoration:none;color:inherit;">
+              <div class="contact-item" style="transition:opacity 0.2s;cursor:pointer;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">
+                <span class="contact-icon" aria-hidden="true">📞</span>
+                <div>
+                  <strong data-key="phone_label">Phone / WhatsApp</strong>
+                  <p><strong>Primary:</strong> +91 93619 08550</p>
+                  <p><strong>Secondary:</strong> +91 86759 04793</p>
+                </div>
+              </div>
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">🕐</span>
+              <div>
+                <strong data-key="hours_label">Available Hours</strong>
+                <p data-key="hours_val">Mon–Sun: 8am – 7pm</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Big action buttons -->
+          <div class="contact-action-buttons">
+            <a href="tel:+919361908550" class="btn btn-primary contact-action-btn" aria-label="Call PMV Goat Farm">
+              📞 Call Now
+            </a>
+            <a href="https://wa.me/919361908550" class="btn btn-whatsapp contact-action-btn" target="_blank" rel="noopener noreferrer" data-key="whatsapp_btn" aria-label="Chat on WhatsApp">
+              💬 Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/xbdqaajl" method="POST" novalidate aria-label="Enquiry form">
+            <h3 data-key="form_title">Send an Enquiry</h3>
+
+            <div class="form-group">
+              <label for="name" data-key="form_name">Your Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required placeholder="e.g. Moorthi"/>
+            </div>
+            <div class="form-group">
+              <label for="phone" data-key="form_phone">Phone Number <span aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="e.g. +91 93619 08550"/>
+            </div>
+            <div class="form-group">
+              <label for="breed" data-key="form_breed">Interested Breed</label>
+              <select id="breed" name="breed">
+                <option value="" data-key="form_breed_opt0">Select a breed</option>
+                <option value="mayilambadi">Ettayapuram Mayilambadi</option>
+                <option value="nellu">Andhra Nellore Jodipi</option>
+                <option value="both" data-key="form_breed_opt3">Both / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="quantity">Approximate Quantity</label>
+              <input type="number" id="quantity" name="quantity" min="1" placeholder="e.g. 5"/>
+            </div>
+            <div class="form-group">
+              <label for="message" data-key="form_msg">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what you need..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width" data-key="form_submit">Send Enquiry</button>
+            <p class="form-success" id="formSuccess" role="alert" data-key="form_success">✅ Your enquiry has been sent! We'll contact you soon.</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="PMV Goat Farm Logo" width="40" height="40" style="width:40px;height:40px;border-radius:50%;margin-right:8px;object-fit:cover;"/>
+        <span>PMV Goat Farm</span>
+      </div>
+      <p class="footer-tagline" data-key="footer_tagline">Quality Goats | Krishnagiri, Tamil Nadu</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home"    data-key="nav_home">Home</a>
+        <a href="#about"   data-key="nav_about">About</a>
+        <a href="#breeds"  data-key="nav_breeds">Breeds</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" data-key="nav_contact">Contact</a>
+      </nav>
+      <div class="footer-contact-row">
+        <a href="tel:+919361908550" class="footer-contact-link" aria-label="Call PMV Goat Farm Primary">📞 Primary: +91 93619 08550</a>
+        <a href="tel:+918675904793" class="footer-contact-link" aria-label="Call PMV Goat Farm Secondary">📞 Secondary: +91 86759 04793</a>
+        <a href="https://wa.me/919361908550" class="footer-contact-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp PMV Goat Farm">💬 WhatsApp</a>
+      </div>
+      <p class="footer-copy">© 2024 PMV Goat Farm. All rights reserved. | Krishnagiri, Tamil Nadu, India</p>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING BUTTONS ========== -->
+  <a href="https://wa.me/919361908550" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">💬</a>
+  <a href="tel:+919361908550"          class="call-float"      aria-label="Call us now">📞</a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <button class="admin-toggle" id="adminToggle" aria-label="Open admin panel">⚙️ Admin</button>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt=""/>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <!-- ========== ADMIN PANEL ========== -->
+  <div class="admin-panel" id="adminPanel" role="dialog" aria-modal="true" aria-label="Admin panel" aria-hidden="true">
+    <div class="admin-header">
+      <h3>🐐 Admin Panel</h3>
+      <button class="admin-close" id="adminClose" aria-label="Close admin panel">✕</button>
+    </div>
+
+    <!-- Login -->
+    <div id="adminLogin" class="admin-login">
+      <h4>Admin Access</h4>
+      <p>Enter password to manage all website content.</p>
+      <input type="password" id="adminPass" placeholder="Password" aria-label="Admin password"/>
+      <button class="admin-login-btn" onclick="doAdminLogin()">Login</button>
+      <p class="admin-error" id="adminError" role="alert">Incorrect password. Try again.</p>
+    </div>
+
+    <!-- Admin body with tabs -->
+    <div id="adminBody" class="admin-body" style="display:none">
+      <div class="admin-tabs">
+        <button class="admin-tab-btn active" onclick="switchAdminTab('home')">🏠 Home</button>
+        <button class="admin-tab-btn" onclick="switchAdminTab('gallery')">📸 Gallery</button>
+        <button class="admin-tab-btn" onclick="switchAdminTab('breeds')">🐐 Breeds</button>
+        <button class="admin-tab-btn" onclick="switchAdminTab('about')">ℹ️ About</button>
+        <button class="admin-tab-btn" onclick="switchAdminTab('contact')">📞 Contact</button>
+        <button class="admin-tab-btn" onclick="switchAdminTab('faq')">❓ FAQ</button>
+      </div>
+
+      <!-- HOME TAB -->
+      <div id="homeTab" class="admin-tab-content">
+        <p class="admin-section-title">Edit Home Section</p>
+        <button class="admin-add-btn" onclick="adminEditHome()" style="margin-bottom:20px">✏️ Edit Home Section</button>
+        <p style="font-size:13px;color:#aaa">Click the button above to edit the hero section content including badge, title, description, and buttons.</p>
+      </div>
+
+      <!-- GALLERY TAB -->
+      <div id="galleryTab" class="admin-tab-content">
+        <p class="admin-section-title">➕ Add New Photo</p>
+        <div class="admin-form" style="background:rgba(255,255,255,0.04);border-radius:10px;padding:16px;border:1px solid rgba(255,255,255,0.1)">
+          <label>Upload from Device</label>
+          <input type="file" id="adminImgFile" accept="image/*" style="color:rgba(255,255,255,0.8);padding:8px 0;background:none;border:none;border-bottom:1px solid rgba(255,255,255,0.2);width:100%;margin-bottom:4px;font-size:13px"/>
+          <label style="margin-top:10px">Or Paste Image URL</label>
+          <input type="text" id="adminImgUrl" placeholder="https://example.com/photo.jpg"/>
+          <label>Caption (optional)</label>
+          <input type="text" id="adminImgCaption" placeholder="e.g. Mayilambadi goats grazing"/>
+          <label>Category</label>
+          <select id="adminImgCat" style="width:100%;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);color:white;padding:10px 14px;border-radius:8px;font-size:14px;margin-bottom:14px">
+            <option value="Farm">🌿 Farm</option>
+            <option value="Goats">🐐 Goats</option>
+            <option value="Customers">😊 Customers</option>
+          </select>
+          <button class="admin-add-btn" onclick="adminAddPhoto()" style="width:100%;padding:12px;font-size:15px">➕ Add Photo to Gallery</button>
+        </div>
+
+        <p class="admin-section-title" style="margin-top:28px">📸 Gallery Photos (<span id="photoCount">0</span>)</p>
+        <p style="font-size:12px;color:#aaa;margin-bottom:12px">Click ✏️ to edit a photo's image, caption or category. Click 🗑️ to delete.</p>
+        <div class="admin-gallery-list" id="adminGalleryList"></div>
+      </div>
+
+      <!-- BREEDS TAB -->
+      <div id="breedsTab" class="admin-tab-content" style="display:none">
+        <p class="admin-section-title">Manage Breeds</p>
+        <button class="admin-add-btn" onclick="adminAddNewBreed()" style="margin-bottom:20px">+ Add New Breed</button>
+        <div id="adminBreedsList"></div>
+      </div>
+
+      <!-- ABOUT TAB -->
+      <div id="aboutTab" class="admin-tab-content" style="display:none">
+        <p class="admin-section-title">Edit About Section</p>
+        <button class="admin-add-btn" onclick="adminEditAbout()" style="margin-bottom:20px">✏️ Edit About Section</button>
+        <p style="font-size:13px;color:#aaa">Click the button above to edit the About section content, image, and key points.</p>
+      </div>
+
+      <!-- CONTACT TAB -->
+      <div id="contactTab" class="admin-tab-content" style="display:none">
+        <p class="admin-section-title">Edit Contact Information</p>
+        <button class="admin-add-btn" onclick="adminEditContact()" style="margin-bottom:20px">✏️ Edit Contact Info</button>
+        <p style="font-size:13px;color:#aaa">Update location, phone numbers, hours, and WhatsApp link.</p>
+      </div>
+
+      <!-- FAQ TAB -->
+      <div id="faqTab" class="admin-tab-content" style="display:none">
+        <p class="admin-section-title">Manage FAQ</p>
+        <button class="admin-add-btn" onclick="adminAddNewFAQ()" style="margin-bottom:20px">+ Add FAQ Item</button>
+        <p style="font-size:13px;color:#aaa">Total FAQ items: <span id="faqCount">0</span></p>
+        <div id="adminFAQList" style="margin-top:20px"></div>
+      </div>
+    </div>
+
+    <!-- HOME EDIT MODAL -->
+    <div id="adminHomeModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content">
+        <h4>Edit Home Section</h4>
+        <label>Badge Text *</label>
+        <input type="text" id="homeBadge" placeholder="e.g. Est. in Krishnagiri, Tamil Nadu" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Title *</label>
+        <input type="text" id="homeTitle" placeholder="e.g. Premium Quality" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Title Span (colored part) *</label>
+        <input type="text" id="homeTitleSpan" placeholder="e.g. Goat Farm" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Description *</label>
+        <textarea id="homeDesc" placeholder="Main hero description" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <label>Button 1 Text *</label>
+        <input type="text" id="homeBtn1" placeholder="e.g. View Our Breeds" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Button 2 Text *</label>
+        <input type="text" id="homeBtn2" placeholder="e.g. Enquire Now" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <div class="admin-modal-buttons" style="margin-top:20px">
+          <button class="admin-modal-save" onclick="adminSaveHome()">Save Home Section</button>
+          <button class="admin-modal-cancel" onclick="closeAdminHomeModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BREED EDIT MODAL -->
+    <div id="adminBreedModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content">
+        <h4>Edit Breed</h4>
+        <input type="hidden" id="breedKey"/>
+        <label>Breed Name *</label>
+        <input type="text" id="breedName" placeholder="e.g. Ettayapuram Mayilambadi" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Origin *</label>
+        <input type="text" id="breedOrigin" placeholder="e.g. 📍 Tamil Nadu Native Breed" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Description *</label>
+        <textarea id="breedDesc" placeholder="Breed description" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <label>Image URL</label>
+        <input type="text" id="breedImage" placeholder="images/breed.jpeg" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Features (one per line)</label>
+        <textarea id="breedFeaturesText" placeholder="High meat yield&#10;Drought-resistant&#10;Easy to maintain" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <label style="display:flex;align-items:center;gap:8px">
+          <input type="checkbox" id="breedFeatured"/> Mark as Featured
+        </label>
+        <div class="admin-modal-buttons" style="margin-top:20px">
+          <button class="admin-modal-save" onclick="adminSaveBreed()">Save Breed</button>
+          <button class="admin-modal-cancel" onclick="closeAdminBreedModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT EDIT MODAL -->
+    <div id="adminAboutModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content">
+        <h4>Edit About Section</h4>
+        <label>Section Label *</label>
+        <input type="text" id="aboutLabel" placeholder="e.g. Who We Are" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Title *</label>
+        <input type="text" id="aboutTitle" placeholder="Main heading" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Badge Text</label>
+        <input type="text" id="aboutBadge" placeholder="e.g. 100% Trusted Farm" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>First Paragraph *</label>
+        <textarea id="aboutText1" placeholder="Main description" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <label>Second Paragraph *</label>
+        <textarea id="aboutText2" placeholder="Additional information" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <label>Image URL</label>
+        <input type="text" id="aboutImage" placeholder="images/about.jpeg" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Key Points (one per line)</label>
+        <textarea id="aboutListItems" placeholder="✅ Vaccinated & Health-Checked&#10;✅ Natural Free-Range Environment" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:80px"></textarea>
+        <div class="admin-modal-buttons" style="margin-top:20px">
+          <button class="admin-modal-save" onclick="adminSaveAbout()">Save About Section</button>
+          <button class="admin-modal-cancel" onclick="closeAdminAboutModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT EDIT MODAL -->
+    <div id="adminContactModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content">
+        <h4>Edit Contact Information</h4>
+        <label>Location *</label>
+        <input type="text" id="contactLocation" placeholder="e.g. Krishnagiri, Tamil Nadu, India" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Primary Phone *</label>
+        <input type="text" id="contactPhone1" placeholder="+91 93619 08550" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Secondary Phone</label>
+        <input type="text" id="contactPhone2" placeholder="+91 86759 04793" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Available Hours *</label>
+        <input type="text" id="contactHours" placeholder="e.g. Mon–Sun: 8am – 7pm" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>WhatsApp Link</label>
+        <input type="text" id="contactWhatsapp" placeholder="https://wa.me/..." style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <div class="admin-modal-buttons" style="margin-top:20px">
+          <button class="admin-modal-save" onclick="adminSaveContact()">Save Contact Info</button>
+          <button class="admin-modal-cancel" onclick="closeAdminContactModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ EDIT MODAL -->
+    <div id="adminFAQModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content">
+        <h4>Edit FAQ Item</h4>
+        <input type="hidden" id="faqIdx" value=""/>
+        <label>Question *</label>
+        <input type="text" id="faqQuestion" placeholder="FAQ question" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label>Answer *</label>
+        <textarea id="faqAnswer" placeholder="FAQ answer" style="width:100%;padding:8px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px;resize:vertical;min-height:120px"></textarea>
+        <div class="admin-modal-buttons" style="margin-top:20px">
+          <button class="admin-modal-save" onclick="adminSaveFAQ()">Save FAQ Item</button>
+          <button class="admin-modal-cancel" onclick="closeAdminFAQModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHOTO EDIT MODAL -->
+    <div id="adminEditModal" class="admin-modal" style="display:none">
+      <div class="admin-modal-content" style="max-width:480px">
+        <h4 style="margin-bottom:16px">✏️ Edit Photo</h4>
+        <div class="admin-modal-preview" style="text-align:center;margin-bottom:14px">
+          <img id="editPhotoPreview" src="" alt="Preview" style="max-width:100%;max-height:180px;border-radius:8px;border:2px solid rgba(255,255,255,0.15);object-fit:cover"/>
+        </div>
+        <label style="font-size:13px;color:#aaa;margin-bottom:4px;display:block">Upload New Image from Device</label>
+        <input type="file" id="editPhotoFile" accept="image/*" style="width:100%;color:rgba(255,255,255,0.8);padding:8px 0;background:none;border:none;border-bottom:1px solid rgba(255,255,255,0.2);margin-bottom:12px;font-size:13px"/>
+        <label style="font-size:13px;color:#aaa;margin-bottom:4px;display:block">Or Paste Image URL</label>
+        <input type="text" id="editPhotoUrl" placeholder="https://example.com/photo.jpg" style="width:100%;padding:9px 12px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label style="font-size:13px;color:#aaa;margin-bottom:4px;display:block">Caption</label>
+        <input type="text" id="editPhotoCaption" placeholder="e.g. Mayilambadi goats grazing" style="width:100%;padding:9px 12px;margin-bottom:12px;box-sizing:border-box;border:1px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);border-radius:6px;color:white;font-size:14px"/>
+        <label style="font-size:13px;color:#aaa;margin-bottom:4px;display:block">Category</label>
+        <select id="editPhotoCat" style="width:100%;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);color:white;padding:9px 12px;border-radius:6px;font-size:14px;margin-bottom:18px">
+          <option value="Farm">Farm</option>
+          <option value="Goats">Goats</option>
+          <option value="Customers">Customers</option>
+        </select>
+        <div class="admin-modal-buttons" style="display:flex;gap:10px">
+          <button class="admin-modal-save" onclick="adminSaveEditPhoto()" style="flex:1;padding:11px;font-size:14px;font-weight:600">💾 Save Changes</button>
+          <button class="admin-modal-cancel" onclick="closeEditModal()" style="flex:1;padding:11px;font-size:14px">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
